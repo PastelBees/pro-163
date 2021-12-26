@@ -61,7 +61,7 @@ AFRAME.registerComponent("bullets", {
     paint.setAttribute("position", {
       x: pos.x,
       y: pos.y,
-      z: pos.z,
+      z: pos.z+0.175,
     });
     paint.setAttribute("rotation", {
       x: rotate.x,
